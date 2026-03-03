@@ -40,7 +40,7 @@ Refresh your page and check the console for messages after each step
 4. Set the initial text of the click display h1 using ```innerText```
     ```javascript
     // Set the initial text for click count h1
-    countDisplay.innerText = "Clicks: " + clicks; 
+    clickDisplay.innerText = "Clicks: " + clicks; 
     ```  
 5. Define a function to call when the image is clicked. Add ```console.log("click");``` inside the function
     ```javascript
@@ -61,7 +61,7 @@ Refresh your page and check the console for messages after each step
         // Add one to click count
         clicks = clicks + 1;
         // Update click count display h1
-        countDisplay.innerText = "Clicks: " + clicks;
+        clickDisplay.innerText = "Clicks: " + clicks;
     }
     ```
 
